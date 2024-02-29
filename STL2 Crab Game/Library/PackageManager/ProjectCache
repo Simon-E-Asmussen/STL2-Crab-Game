@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638442764364517102
-    m_Hash: 4212924318
+      ticks: 638442774217530989
+    m_Hash: 2542319894
   m_LockFileStatus:
     m_FilePath: C:/Users/Jan Kirk/Documents/GitHub/STL2-Crab-Game/STL2 Crab Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638442764364549515
-    m_Hash: 687900820
+      ticks: 638442774217572577
+    m_Hash: 3064403298
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
