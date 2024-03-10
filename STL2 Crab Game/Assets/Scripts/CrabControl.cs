@@ -8,24 +8,24 @@ using static UnityEngine.GraphicsBuffer;
 
 public class CrabControl : MonoBehaviour
 {
-    private Crab_Input inputDPad = null;
+    [SerializeField]
+    private int playerIndex = -1;
 
     // Game pad variables
-    private Vector2 leftVector = Vector2.zero;
-    private Vector2 leftVector_prev = Vector2.zero;
-    private Vector2 rightVector = Vector2.zero;
+    public Vector2 leftVector = Vector2.zero;
+    public Vector2 leftVector_prev = Vector2.zero;
+    public Vector2 rightVector = Vector2.zero;
 
     // Camera
     public Camera camera;
-    private Quaternion camStartRot; 
+    private Quaternion camStartRot;
+    public Vector2 camRotaton;
+    [SerializeField] GameObject camRotObj;
+    [SerializeField] GameObject camObj;
 
     // Crab body
-    public enum Sides { Left, Right };
-    [SerializeField] Sides crabPart = new Sides();
     private Rigidbody rb;
-    public GameObject crabLeft;
-    public GameObject crabRight;
-    private GameObject partToMove;
+
     // Crab rotation axes
     public GameObject frontAxisObject;
     public GameObject rearAxisObject;
@@ -33,69 +33,31 @@ public class CrabControl : MonoBehaviour
     // Max speeds and timers
     public float speedTimer = 0;
     public float rotateTimer = 0;
-    float maxSpeed = 2;                // Units per second.
+    float maxSpeed = 2;                 // Units per second.
     public float maxAngularSpeed = 20;  // Degrees per second.
 
     // Controller
-    private bool gotControllerID = false;
-    public int controllerID = 0;
+    [SerializeField]
+    private float direction = 0;
 
 
     // Particle system
-    [SerializeField] private ParticleSystem crabParticle;
+    public ParticleSystem crabParticle;
     [HideInInspector] public bool isSpraying = false;
 
 
     private void Awake()
     {
-        inputDPad = new Crab_Input();
         var main = crabParticle.main;
         main.loop = true;
 
-        if (crabPart == Sides.Left)  partToMove = crabLeft;
-        if (crabPart == Sides.Right) partToMove = crabRight;
-        rb = partToMove.GetComponent<Rigidbody>();
-
+        rb = GetComponent<Rigidbody>();
         camera = GetComponentInChildren<Camera>();
         camStartRot = camera.transform.rotation;
     }
 
 
-    // Subscribe
-    private void OnEnable()
-    {
-        inputDPad.Enable();
-        // Left stick
-        inputDPad.DPadContol.LeftStick.performed += OnLeftStickPerformed;
-        inputDPad.DPadContol.LeftStick.canceled += OnLeftStickCancelled;
-        // Right stick
-        inputDPad.DPadContol.RightStick.performed += OnRightStickPerformed;
-        inputDPad.DPadContol.RightStick.canceled += OnRightStickCancelled;
-        // Right trigger (spray)
-        inputDPad.DPadContol.Particle.performed += OnRTriggerPerformed;
-        inputDPad.DPadContol.Particle.canceled += OnRTriggerCancelled;
-        //
-        inputDPad.DPadContol.X_Button.performed += OnXButtonPerformed;
-        inputDPad.DPadContol.X_Button.canceled += OnXButtonCancelled;
-    }
 
-    // Unsubscribe
-    private void OnDisable()
-    {
-        inputDPad.Disable();
-        // Left stick
-        inputDPad.DPadContol.LeftStick.performed -= OnLeftStickPerformed;
-        inputDPad.DPadContol.LeftStick.canceled -= OnLeftStickCancelled;
-        // Right stick
-        inputDPad.DPadContol.RightStick.performed -= OnRightStickPerformed;
-        inputDPad.DPadContol.RightStick.canceled -= OnRightStickCancelled;
-        // Right trigger (spray)
-        inputDPad.DPadContol.Particle.performed -= OnRTriggerPerformed;
-        inputDPad.DPadContol.Particle.canceled -= OnRTriggerCancelled;
-        //
-        inputDPad.DPadContol.X_Button.performed -= OnXButtonPerformed;
-        inputDPad.DPadContol.X_Button.canceled -= OnXButtonCancelled;
-    }
 
     private void FixedUpdate()
     {
@@ -103,11 +65,16 @@ public class CrabControl : MonoBehaviour
         RotateCamera();
     }
 
+    public int GetPlayerIndex()
+    {
+        return playerIndex;
+    }
+
     private void Move()
     {
         Rotate();
         ChangeVelocity();
-        ApplyDrag();
+        //ApplyDrag();
     }
 
     private void Rotate()
@@ -115,18 +82,22 @@ public class CrabControl : MonoBehaviour
         float maxRadPerSec = maxAngularSpeed * Mathf.PI / 180;
         float timeToMaxAngularSpeed = 1;
 
+
         // Rotate around center (with capping of rotation speed)
-        if (Mathf.Abs(leftVector.x) < 0.2f) leftVector.x = 0f;
-        rb.AddRelativeTorque(new Vector3(0f, leftVector.x * (rotateTimer / timeToMaxAngularSpeed), 0f), ForceMode.Impulse);
+        //if (Mathf.Abs(leftVector.x) < 0.2f) leftVector.x = 0f;
+        //rb.AddRelativeTorque(new Vector3(0f, leftVector.x * (rotateTimer / timeToMaxAngularSpeed), 0f), ForceMode.Force);
 
         // Capping angular y_velocity
-        if (Mathf.Abs(rb.angularVelocity.y) > maxRadPerSec) rb.angularVelocity = new Vector3(rb.angularVelocity.x, maxRadPerSec * (rb.angularVelocity.y / Mathf.Abs(rb.angularVelocity.y)), rb.angularVelocity.z);
+        //if (Mathf.Abs(rb.angularVelocity.y) > maxRadPerSec) rb.angularVelocity = new Vector3(rb.angularVelocity.x, maxRadPerSec * (rb.angularVelocity.y / Mathf.Abs(rb.angularVelocity.y)), rb.angularVelocity.z);
 
-        rotateTimer += Time.deltaTime;
-        if (rotateTimer > timeToMaxAngularSpeed) rotateTimer = timeToMaxAngularSpeed;
+        //rotateTimer += Time.deltaTime;
+        //if (rotateTimer > timeToMaxAngularSpeed) rotateTimer = timeToMaxAngularSpeed;
 
         // Rotate around some axis
-        // partToMove.transform.RotateAround(frontAxisObject.transform.position, Vector3.up, maxAngularSpeed * Time.deltaTime * leftVector.x);
+        //partToMove.transform.RotateAround(frontAxisObject.transform.position, Vector3.up, maxAngularSpeed * Time.deltaTime * leftVector.x);
+        rb.transform.RotateAround(rb.transform.position, transform.up, maxAngularSpeed * Time.deltaTime * leftVector.x);
+
+
 
     }
 
@@ -158,7 +129,7 @@ public class CrabControl : MonoBehaviour
             );
 
         // Apply new velocity
-        rb.velocity = -transform.TransformDirection(localVelocity);
+        rb.velocity = direction * transform.TransformDirection(localVelocity);
 
         speedTimer += Time.deltaTime;
         if (speedTimer > speedChangeTime) speedTimer = speedChangeTime;
@@ -175,102 +146,17 @@ public class CrabControl : MonoBehaviour
     private void RotateCamera()
     {
         // Yaw
-        camera.transform.RotateAround(camera.transform.position, Vector3.up, maxAngularSpeed * Time.deltaTime * rightVector.x);
+        //camera.transform.RotateAround(camera.transform.position, camera.transform.up, maxAngularSpeed * Time.deltaTime * rightVector.x);
+        camera.transform.RotateAround(camera.transform.position, camRotObj.transform.up, maxAngularSpeed * Time.deltaTime * rightVector.x);
 
         // Pitch
-        camera.transform.RotateAround(camera.transform.position, camera.transform.right, maxAngularSpeed * Time.deltaTime * rightVector.y);
+        //camera.transform.RotateAround(camera.transform.position, camera.transform.right, maxAngularSpeed * Time.deltaTime * rightVector.y);
+        camera.transform.RotateAround(camera.transform.position, camObj.transform.right, maxAngularSpeed * Time.deltaTime * rightVector.y);
     }
 
 
 
-    // ########## Left stick callbacks ##########
-    private void OnLeftStickPerformed(InputAction.CallbackContext value)
-    {
-        if (value.control.device.deviceId != controllerID) return;
 
-        if (leftVector.x == 0) rotateTimer = 0; // Starting new rotation.
-
-        leftVector_prev = leftVector;
-        leftVector = value.ReadValue<Vector2>();
-    }
-
-    private void OnLeftStickCancelled(InputAction.CallbackContext value)
-    {
-        if (value.control.device.deviceId != controllerID) return;
-
-        leftVector_prev = leftVector;
-        leftVector = Vector2.zero;
-        speedTimer = 0f;
-        rotateTimer = 0;
-    }
-
-    // ########## Right stick callbacks ##########
-    private void OnRightStickPerformed(InputAction.CallbackContext value)
-    {
-        if (value.control.device.deviceId != controllerID) return;
-
-        rightVector = value.ReadValue<Vector2>();
-    }
-
-    private void OnRightStickCancelled(InputAction.CallbackContext value)
-    {
-        if (value.control.device.deviceId != controllerID) return;
-
-        //Vector2 rightVector = value.ReadValue<Vector2>();
-        //float newX = rightVector.x;
-        //float newY = rightVector.y;
-
-        rightVector = Vector2.zero;
-    }
-
-    private void OnRTriggerPerformed(InputAction.CallbackContext value)
-    {
-        if (value.control.device.deviceId != controllerID) return;
-
-        if (!crabParticle.isPlaying)
-        {
-            crabParticle.Play();
-            isSpraying = true;
-        }
-        else
-        {
-            crabParticle.Stop();
-            isSpraying = false;
-        }
-    }
-
-    private void OnRTriggerCancelled(InputAction.CallbackContext value)
-    {
-        if (value.control.device.deviceId != controllerID) return;
-
-    }
-
-    private void OnXButtonPerformed(InputAction.CallbackContext value)
-    {
-        if (!gotControllerID)
-        {
-            List<int> controllerIDs = new();
-            CrabControl[] controllers = FindObjectsByType<CrabControl>(FindObjectsSortMode.InstanceID);
-            foreach (CrabControl itr in controllers)
-                if (itr.controllerID != 0) controllerIDs.Add(itr.controllerID);
-
-            if (!controllerIDs.Contains(value.control.device.deviceId))
-            {
-                controllerID = value.control.device.deviceId;
-                gotControllerID = true;
-            }
-        }
-        if (value.control.device.deviceId != controllerID) return;
-
-
-
-    }
-
-    private void OnXButtonCancelled(InputAction.CallbackContext value)
-    {
-        if (value.control.device.deviceId != controllerID) return;
-
-    }
 
 
 }

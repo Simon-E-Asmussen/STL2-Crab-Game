@@ -2,7 +2,7 @@
     "name": "Crab_Input",
     "maps": [
         {
-            "name": "DPadContol",
+            "name": "PlayerContol",
             "id": "0436f594-6010-4ebc-b3d5-cc1f7b750fbe",
             "actions": [
                 {
