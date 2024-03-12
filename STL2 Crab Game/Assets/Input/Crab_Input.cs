@@ -24,7 +24,7 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
     ""name"": ""Crab_Input"",
     ""maps"": [
         {
-            ""name"": ""DPadContol"",
+            ""name"": ""PlayerContol"",
             ""id"": ""0436f594-6010-4ebc-b3d5-cc1f7b750fbe"",
             ""actions"": [
                 {
@@ -407,14 +407,14 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
     ],
     ""controlSchemes"": []
 }");
-        // DPadContol
-        m_DPadContol = asset.FindActionMap("DPadContol", throwIfNotFound: true);
-        m_DPadContol_LeftStick = m_DPadContol.FindAction("LeftStick", throwIfNotFound: true);
-        m_DPadContol_RightStick = m_DPadContol.FindAction("RightStick", throwIfNotFound: true);
-        m_DPadContol_Arrows = m_DPadContol.FindAction("Arrows", throwIfNotFound: true);
-        m_DPadContol_Jump = m_DPadContol.FindAction("Jump", throwIfNotFound: true);
-        m_DPadContol_Particle = m_DPadContol.FindAction("Particle", throwIfNotFound: true);
-        m_DPadContol_X_Button = m_DPadContol.FindAction("X_Button", throwIfNotFound: true);
+        // PlayerContol
+        m_PlayerContol = asset.FindActionMap("PlayerContol", throwIfNotFound: true);
+        m_PlayerContol_LeftStick = m_PlayerContol.FindAction("LeftStick", throwIfNotFound: true);
+        m_PlayerContol_RightStick = m_PlayerContol.FindAction("RightStick", throwIfNotFound: true);
+        m_PlayerContol_Arrows = m_PlayerContol.FindAction("Arrows", throwIfNotFound: true);
+        m_PlayerContol_Jump = m_PlayerContol.FindAction("Jump", throwIfNotFound: true);
+        m_PlayerContol_Particle = m_PlayerContol.FindAction("Particle", throwIfNotFound: true);
+        m_PlayerContol_X_Button = m_PlayerContol.FindAction("X_Button", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -473,34 +473,34 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // DPadContol
-    private readonly InputActionMap m_DPadContol;
-    private List<IDPadContolActions> m_DPadContolActionsCallbackInterfaces = new List<IDPadContolActions>();
-    private readonly InputAction m_DPadContol_LeftStick;
-    private readonly InputAction m_DPadContol_RightStick;
-    private readonly InputAction m_DPadContol_Arrows;
-    private readonly InputAction m_DPadContol_Jump;
-    private readonly InputAction m_DPadContol_Particle;
-    private readonly InputAction m_DPadContol_X_Button;
-    public struct DPadContolActions
+    // PlayerContol
+    private readonly InputActionMap m_PlayerContol;
+    private List<IPlayerContolActions> m_PlayerContolActionsCallbackInterfaces = new List<IPlayerContolActions>();
+    private readonly InputAction m_PlayerContol_LeftStick;
+    private readonly InputAction m_PlayerContol_RightStick;
+    private readonly InputAction m_PlayerContol_Arrows;
+    private readonly InputAction m_PlayerContol_Jump;
+    private readonly InputAction m_PlayerContol_Particle;
+    private readonly InputAction m_PlayerContol_X_Button;
+    public struct PlayerContolActions
     {
         private @Crab_Input m_Wrapper;
-        public DPadContolActions(@Crab_Input wrapper) { m_Wrapper = wrapper; }
-        public InputAction @LeftStick => m_Wrapper.m_DPadContol_LeftStick;
-        public InputAction @RightStick => m_Wrapper.m_DPadContol_RightStick;
-        public InputAction @Arrows => m_Wrapper.m_DPadContol_Arrows;
-        public InputAction @Jump => m_Wrapper.m_DPadContol_Jump;
-        public InputAction @Particle => m_Wrapper.m_DPadContol_Particle;
-        public InputAction @X_Button => m_Wrapper.m_DPadContol_X_Button;
-        public InputActionMap Get() { return m_Wrapper.m_DPadContol; }
+        public PlayerContolActions(@Crab_Input wrapper) { m_Wrapper = wrapper; }
+        public InputAction @LeftStick => m_Wrapper.m_PlayerContol_LeftStick;
+        public InputAction @RightStick => m_Wrapper.m_PlayerContol_RightStick;
+        public InputAction @Arrows => m_Wrapper.m_PlayerContol_Arrows;
+        public InputAction @Jump => m_Wrapper.m_PlayerContol_Jump;
+        public InputAction @Particle => m_Wrapper.m_PlayerContol_Particle;
+        public InputAction @X_Button => m_Wrapper.m_PlayerContol_X_Button;
+        public InputActionMap Get() { return m_Wrapper.m_PlayerContol; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(DPadContolActions set) { return set.Get(); }
-        public void AddCallbacks(IDPadContolActions instance)
+        public static implicit operator InputActionMap(PlayerContolActions set) { return set.Get(); }
+        public void AddCallbacks(IPlayerContolActions instance)
         {
-            if (instance == null || m_Wrapper.m_DPadContolActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_DPadContolActionsCallbackInterfaces.Add(instance);
+            if (instance == null || m_Wrapper.m_PlayerContolActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_PlayerContolActionsCallbackInterfaces.Add(instance);
             @LeftStick.started += instance.OnLeftStick;
             @LeftStick.performed += instance.OnLeftStick;
             @LeftStick.canceled += instance.OnLeftStick;
@@ -521,7 +521,7 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
             @X_Button.canceled += instance.OnX_Button;
         }
 
-        private void UnregisterCallbacks(IDPadContolActions instance)
+        private void UnregisterCallbacks(IPlayerContolActions instance)
         {
             @LeftStick.started -= instance.OnLeftStick;
             @LeftStick.performed -= instance.OnLeftStick;
@@ -543,22 +543,22 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
             @X_Button.canceled -= instance.OnX_Button;
         }
 
-        public void RemoveCallbacks(IDPadContolActions instance)
+        public void RemoveCallbacks(IPlayerContolActions instance)
         {
-            if (m_Wrapper.m_DPadContolActionsCallbackInterfaces.Remove(instance))
+            if (m_Wrapper.m_PlayerContolActionsCallbackInterfaces.Remove(instance))
                 UnregisterCallbacks(instance);
         }
 
-        public void SetCallbacks(IDPadContolActions instance)
+        public void SetCallbacks(IPlayerContolActions instance)
         {
-            foreach (var item in m_Wrapper.m_DPadContolActionsCallbackInterfaces)
+            foreach (var item in m_Wrapper.m_PlayerContolActionsCallbackInterfaces)
                 UnregisterCallbacks(item);
-            m_Wrapper.m_DPadContolActionsCallbackInterfaces.Clear();
+            m_Wrapper.m_PlayerContolActionsCallbackInterfaces.Clear();
             AddCallbacks(instance);
         }
     }
-    public DPadContolActions @DPadContol => new DPadContolActions(this);
-    public interface IDPadContolActions
+    public PlayerContolActions @PlayerContol => new PlayerContolActions(this);
+    public interface IPlayerContolActions
     {
         void OnLeftStick(InputAction.CallbackContext context);
         void OnRightStick(InputAction.CallbackContext context);
