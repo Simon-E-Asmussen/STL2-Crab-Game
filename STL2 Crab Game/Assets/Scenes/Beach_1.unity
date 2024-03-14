@@ -162,7 +162,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -3.7252503e-11, y: 0.0052507916, z: -0.000000001717126}
+  m_ConnectedAnchor: {x: 0.00000007674099, y: 0.0052507916, z: -0.000000001717126}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1126,6 +1126,38 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97a0d8ae9aa5137409906604b0f13ff0, type: 3}
+--- !u!1 &199965977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 199965978}
+  m_Layer: 7
+  m_Name: CameraRight_Yaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &199965978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199965977}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 490929546}
+  m_Father: {fileID: 1212117562}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &207464801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,7 +1302,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -7.450617e-11, y: 0.0053160135, z: 0.0000000015352273}
+  m_ConnectedAnchor: {x: 0.00000007599593, y: 0.005316017, z: 0.0000000015497792}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1441,7 +1473,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.4901168e-10, y: 0.004462823, z: -3.0195227e-10}
+  m_ConnectedAnchor: {x: 0.000000078976164, y: 0.004462823, z: -3.0195227e-10}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1516,7 +1548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490929546}
   m_Layer: 7
-  m_Name: CameraRight_Parent
+  m_Name: CameraRight_Pitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1530,13 +1562,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490929545}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.25, y: 1.6999998, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 23726633}
-  m_Father: {fileID: 1212117562}
+  m_Father: {fileID: 199965978}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!54 &497641639
 Rigidbody:
@@ -1577,7 +1609,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -3.5527136e-17, y: 0.004946497, z: 0}
+  m_ConnectedAnchor: {x: 0.00000008046628, y: 0.004946503, z: 0}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1643,7 +1675,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 7.450602e-11, y: 0.0045289285, z: -9.2404673e-10}
+  m_ConnectedAnchor: {x: 0.000000078976164, y: 0.004528925, z: -9.749784e-10}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1709,7 +1741,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.4901161e-10, y: 0.004988295, z: 1.5279511e-10}
+  m_ConnectedAnchor: {x: 0.00000008046628, y: 0.004988296, z: 1.4551915e-10}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1775,7 +1807,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.25126296, y: -0.25000036, z: 0}
+  m_ConnectedAnchor: {x: 0.10202062, y: -0.24999231, z: 0}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -2011,7 +2043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783042867}
   m_Layer: 6
-  m_Name: CameraLeft_Parent
+  m_Name: CameraLeft_Pitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2025,13 +2057,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783042866}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.25, y: 1.6999998, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1475202116}
-  m_Father: {fileID: 988475403}
+  m_Father: {fileID: 1625848728}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &810382676
 GameObject:
@@ -2282,7 +2314,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.8626307e-11, y: 0.0044628233, z: 5.893526e-10}
+  m_ConnectedAnchor: {x: 0.00000007785857, y: 0.0044628195, z: 6.0390454e-10}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -2543,7 +2575,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 783042867}
+  - {fileID: 1625848728}
   - {fileID: 1808034407}
   - {fileID: 1162938101}
   - {fileID: 87500246}
@@ -7364,8 +7396,8 @@ MonoBehaviour:
   rightVector: {x: 0, y: 0}
   camera: {fileID: 0}
   camRotaton: {x: 0, y: 0}
-  camRotObj: {fileID: 783042866}
-  camObj: {fileID: 1475202115}
+  camYawObj: {fileID: 1625848727}
+  camPitchObj: {fileID: 783042866}
   frontAxisObject: {fileID: 121886197}
   rearAxisObject: {fileID: 942392353}
   speedTimer: 0
@@ -7748,7 +7780,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.810252e-16, y: 0.0055789086, z: -9.313226e-10}
+  m_ConnectedAnchor: {x: 0.000000074505806, y: 0.0055789086, z: -9.313226e-10}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -7812,7 +7844,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 490929546}
+  - {fileID: 199965978}
   - {fileID: 810382677}
   - {fileID: 696317816}
   - {fileID: 336233875}
@@ -12633,8 +12665,8 @@ MonoBehaviour:
   rightVector: {x: 0, y: 0}
   camera: {fileID: 0}
   camRotaton: {x: 0, y: 0}
-  camRotObj: {fileID: 490929545}
-  camObj: {fileID: 23726632}
+  camYawObj: {fileID: 199965977}
+  camPitchObj: {fileID: 490929545}
   frontAxisObject: {fileID: 121886197}
   rearAxisObject: {fileID: 942392353}
   speedTimer: 0
@@ -12802,7 +12834,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.4901176e-10, y: 0.00479143, z: 6.2573235e-10}
+  m_ConnectedAnchor: {x: 0.000000074505806, y: 0.00479143, z: 6.2573235e-10}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -12924,7 +12956,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.25233287, y: -0.24999976, z: 0.006328106}
+  m_ConnectedAnchor: {x: -0.103732586, y: -0.24999231, z: 0.0006328106}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -12963,7 +12995,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 3.3133218e-16, y: 0.005316014, z: -0.0000000010841177}
+  m_ConnectedAnchor: {x: 0.00000007152558, y: 0.0053160214, z: -0.0000000011568773}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -13017,6 +13049,38 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1625848727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1625848728}
+  m_Layer: 6
+  m_Name: CameraLeft_Yaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1625848728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625848727}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 783042867}
+  m_Father: {fileID: 988475403}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1735252996
 GameObject:
   m_ObjectHideFlags: 0
@@ -13128,7 +13192,7 @@ Transform:
   m_GameObject: {fileID: 1765254828}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 17.8, z: 0}
+  m_LocalPosition: {x: -1.65, y: 17.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
