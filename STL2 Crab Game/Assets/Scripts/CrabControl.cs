@@ -20,8 +20,9 @@ public class CrabControl : MonoBehaviour
     public Camera camera;
     private Quaternion camStartRot;
     public Vector2 camRotaton;
-    [SerializeField] GameObject camRotObj;
-    [SerializeField] GameObject camObj;
+    float cameraOffsetFactor = 2.5f;
+    [SerializeField] GameObject camYawObj;
+    [SerializeField] GameObject camPitchObj;
 
     // Crab body
     private Rigidbody rb;
@@ -54,6 +55,7 @@ public class CrabControl : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         camera = GetComponentInChildren<Camera>();
         camStartRot = camera.transform.rotation;
+        camPitchObj.transform.localPosition = new Vector3(camPitchObj.transform.localPosition.x, camPitchObj.transform.localPosition.y, camPitchObj.transform.localPosition.z * cameraOffsetFactor);
     }
 
 
@@ -147,11 +149,12 @@ public class CrabControl : MonoBehaviour
     {
         // Yaw
         //camera.transform.RotateAround(camera.transform.position, camera.transform.up, maxAngularSpeed * Time.deltaTime * rightVector.x);
-        camera.transform.RotateAround(camera.transform.position, camRotObj.transform.up, maxAngularSpeed * Time.deltaTime * rightVector.x);
+        //camera.transform.RotateAround(camera.transform.position, camYawObj.transform.up, maxAngularSpeed * Time.deltaTime * rightVector.x);
+        camYawObj.transform.RotateAround(camYawObj.transform.position, camYawObj.transform.up, maxAngularSpeed * Time.deltaTime * rightVector.x);
 
         // Pitch
         //camera.transform.RotateAround(camera.transform.position, camera.transform.right, maxAngularSpeed * Time.deltaTime * rightVector.y);
-        camera.transform.RotateAround(camera.transform.position, camObj.transform.right, maxAngularSpeed * Time.deltaTime * rightVector.y);
+        camera.transform.RotateAround(camera.transform.position, camPitchObj.transform.right, maxAngularSpeed * Time.deltaTime * rightVector.y);
     }
 
 
