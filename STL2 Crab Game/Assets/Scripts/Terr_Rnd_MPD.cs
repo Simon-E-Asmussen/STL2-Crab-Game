@@ -8,24 +8,27 @@ using System.Collections.Generic;
 
 public class Terr_Rnd_MPD : MonoBehaviour
 {
+    public TerrainData terrainData;
+    public bool reset = false;
+
     // How much randomness do we want to add to the new generated values, the higher the more the terrain will look jagged
     //[SerializeField] private float maxRandomAddition = 0.5f;
-    private float maxRandomAddition = 0.2f;
+    private float maxRandomAddition = 0.025f;
 
     // As the algorithm progresses we want to reduce randomness to create a more smooth surface.
     // The higher this value is the more steep (and diverse) the terrain will be.
     //[SerializeField] private float randomValueReduction = 0.45f;
     private float randomValueReduction = 0.45f;
 
-    [SerializeField] private int terrainScale = 1; // Terrain scale
+    [SerializeField] private int terrainScale = 1; // Terrain scale (scale 10 works !!!)
 
     // Seed so we can reproduce results, if you tick the useRandomSeed variable it will just pick a random one
     [SerializeField] private int customSeed;
     [SerializeField] private bool useRandomSeed = true;
 
     // Minimum and maximum height of the heightmap (0 is min, 1 is max)
-    [SerializeField] private float minHeight = 0f;
-    [SerializeField] private float maxHeight = 0.5f;
+    private float minHeight = 0f;
+    private float maxHeight = 0.05f;
 
     Terrain terrain;
 
@@ -39,6 +42,7 @@ public class Terr_Rnd_MPD : MonoBehaviour
     private void Start()
     {
         Debug.Log(terrain.terrainData.size);
+        Debug.Log("This is MPD on Terrain: " + terrain.name + ", using data: " + terrain.terrainData.name);
     }
 
 
@@ -61,10 +65,21 @@ public class Terr_Rnd_MPD : MonoBehaviour
         //  ################### My Code ###################
         //  Corner values
         float[,] height = new float[side, side];
-        height[0, 0] = Random.Range(0f, 1f);
-        height[0, side - 1] = Random.Range(0f, 1f);
-        height[side - 1, 0] = Random.Range(0f, 1f);
-        height[side - 1, side - 1] = Random.Range(0f, 1f);
+        //height[0, 0] = Random.Range(0f, 1f);
+        //height[0, side - 1] = Random.Range(0f, 1f);
+        //height[side - 1, 0] = Random.Range(0f, 1f);
+        //height[side - 1, side - 1] = Random.Range(0f, 1f);
+        height[0, 0] = Random.Range(0f, maxRandomAddition);
+        height[0, side - 1] = Random.Range(0f, maxRandomAddition);
+        height[side - 1, 0] = Random.Range(0f, maxRandomAddition);
+        height[side - 1, side - 1] = Random.Range(0f, maxRandomAddition);
+        if (reset)
+        {
+            height[0, 0] = 0;
+            height[0, side - 1] = 0;
+            height[side - 1, 0] = 0;
+            height[side - 1, side - 1] = 0;
+        }
         //  ################### My Code ###################
 
 
@@ -93,6 +108,15 @@ public class Terr_Rnd_MPD : MonoBehaviour
                     // Setting height of center square to average of our 4 new midpoints +/- a random DISPLACEMENT
                     height[midpointX, midpointY] = ((p1 + p2 + p3 + p4) / 4f) + Random.Range(-maxRandomAddition, maxRandomAddition);
 
+                    if (reset)
+                    {
+                        p1 = height[midpointX, y] = 0;
+                        p2 = height[x, midpointY] = 0;
+                        p3 = height[midpointX, y + step] = 0;
+                        p4 = height[x + step, midpointY] = 0;
+                        height[midpointX, midpointY] = 0;
+                    }
+
                     //  Debug.Log("HL: " + height.Length);
                     //  Debug.Log("step: " + step + ", halfStep: " + halfStep + ", x: " + x + ", midpointX: " + midpointX + ", y: " + x + ", midpointY: " + midpointY);
                     //  Debug.Log(p1 + "   " + p2 + "   " + p3 + "   " + p4);
@@ -104,8 +128,8 @@ public class Terr_Rnd_MPD : MonoBehaviour
 
         }
 
-        Debug.Log("hts:    " + hts.GetLength(0) + ", " + hts.GetLength(1));
-        Debug.Log("height: " + height.GetLength(0) + ", " + height.GetLength(1));
+        //  Debug.Log("hts:    " + hts.GetLength(0) + ", " + hts.GetLength(1));
+        //  Debug.Log("height: " + height.GetLength(0) + ", " + height.GetLength(1));
 
         //  Copying the heights into new array
         for (int y = 0; y < t.terrainData.heightmapResolution; y++)
@@ -117,7 +141,7 @@ public class Terr_Rnd_MPD : MonoBehaviour
         hts = NormalizeHeightmap(hts, minHeight, maxHeight);
 
         //  Passing heights to terrain
-        t.terrainData.SetHeights(0, 0, hts);
+        t.terrainData.SetHeights(0,0,hts);
     }
 
 

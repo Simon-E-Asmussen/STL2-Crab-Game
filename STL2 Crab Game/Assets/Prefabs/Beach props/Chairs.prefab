@@ -1,0 +1,1861 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5250304529951789143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4550751616144899926}
+  m_Layer: 0
+  m_Name: Chairs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4550751616144899926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5250304529951789143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.43, y: 0, z: -4.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7695493113074291574}
+  - {fileID: 2105328752265254720}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5443288677651101496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7695493113074291574}
+  m_Layer: 0
+  m_Name: BeachChairs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7695493113074291574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5443288677651101496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.43, y: 0, z: 4.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6520671234144884072}
+  - {fileID: 5455297395091279224}
+  - {fileID: 8703903581948303941}
+  - {fileID: 3096183806071836410}
+  - {fileID: 6560684032522747968}
+  - {fileID: 1020734796183285402}
+  - {fileID: 2488444580059657874}
+  - {fileID: 1784658570394440170}
+  - {fileID: 4757534529251719366}
+  - {fileID: 2107852836865217026}
+  - {fileID: 5699111174179883089}
+  - {fileID: 7596261334381335461}
+  - {fileID: 3299941764027312654}
+  - {fileID: 4879394029601703564}
+  - {fileID: 9030654857843119845}
+  - {fileID: 5878893727187353421}
+  m_Father: {fileID: 4550751616144899926}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6919560323820331705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105328752265254720}
+  m_Layer: 0
+  m_Name: S_BeachChairs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2105328752265254720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919560323820331705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5700002, y: 0, z: 0.12999964}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2184802965205916692}
+  - {fileID: 4905589815393805674}
+  - {fileID: 3008718789089341220}
+  - {fileID: 6448874004317117630}
+  - {fileID: 7321361445735047933}
+  - {fileID: 8366481643138984262}
+  - {fileID: 2852810171501474585}
+  - {fileID: 6518487316234291920}
+  - {fileID: 7150424989102728101}
+  - {fileID: 8403173911105993904}
+  - {fileID: 5585891203320385236}
+  - {fileID: 4280793236442713862}
+  - {fileID: 8279091790020385858}
+  - {fileID: 3450897166885117586}
+  - {fileID: 6331740484996206357}
+  - {fileID: 2099218051354000332}
+  m_Father: {fileID: 4550751616144899926}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1020734796183418288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 149156, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Purple
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+--- !u!4 &1020734796183285402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400170, guid: 7d9d53ffe51f5a64496a21ed2e572d12, type: 3}
+  m_PrefabInstance: {fileID: 1020734796183418288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1784658570393984542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 148536, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+--- !u!4 &1784658570394440170 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 462836, guid: 608c04c30b867ef42aa668cfc10f8c75, type: 3}
+  m_PrefabInstance: {fileID: 1784658570393984542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2099218051354111838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 165204, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SBlue
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+--- !u!4 &2099218051354000332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 414866, guid: ddcf3bcd2f70d084287d4a194d1af45b, type: 3}
+  m_PrefabInstance: {fileID: 2099218051354111838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2107852836864894244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 143976, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+--- !u!4 &2107852836865217026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 472870, guid: 7f7c359fff45c8f4795209585a3441bb, type: 3}
+  m_PrefabInstance: {fileID: 2107852836864894244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2184802965206206076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 139750, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SYellow 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.34000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+--- !u!4 &2184802965205916692 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498280, guid: 8cc281bf74354be4796069511eb3a82d, type: 3}
+  m_PrefabInstance: {fileID: 2184802965206206076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2488444580059692206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 118336, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Pink 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+--- !u!4 &2488444580059657874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 2488444580059692206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2852810171501090575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 102842, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SPink 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+--- !u!4 &2852810171501474585 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 451606, guid: a3e8570d2afb7c44ebf46b9c21450b2d, type: 3}
+  m_PrefabInstance: {fileID: 2852810171501090575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3008718789089008494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 159962, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SPurple 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22000027
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.179999
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+--- !u!4 &3008718789089341220 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 472138, guid: c50d0bb40987f794391fe518e317803e, type: 3}
+  m_PrefabInstance: {fileID: 3008718789089008494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3096183806071987354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 196902, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+--- !u!4 &3096183806071836410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 414304, guid: 552284c18d7005d4b84e87b2505eb273, type: 3}
+  m_PrefabInstance: {fileID: 3096183806071987354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3299941764027446862
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 107814, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Cyan 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+--- !u!4 &3299941764027312654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400448, guid: 67b2c41e329119d46a77c5e9f95f1217, type: 3}
+  m_PrefabInstance: {fileID: 3299941764027446862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3450897166884673070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 177620, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SCyan
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.17000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.1999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+--- !u!4 &3450897166885117586 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 444604, guid: 95a854e826b912c49b7251eea4d9c55c, type: 3}
+  m_PrefabInstance: {fileID: 3450897166884673070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4280793236443138106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 104610, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.18999958
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.7100003
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+--- !u!4 &4280793236442713862 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 427836, guid: 431e0f2d0da5217459fbed6fe8f069c5, type: 3}
+  m_PrefabInstance: {fileID: 4280793236443138106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4757534529251655120
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 190128, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Orange 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+--- !u!4 &4757534529251719366 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 460054, guid: ae90c8c61b9f7a34ab2c22b105198137, type: 3}
+  m_PrefabInstance: {fileID: 4757534529251655120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4879394029601860958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 127814, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Cyan
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+--- !u!4 &4879394029601703564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 453586, guid: 3f9104bb3b2b8b447b6afb5a0286ae12, type: 3}
+  m_PrefabInstance: {fileID: 4879394029601860958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4905589815393952836
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 196180, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SYellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.34000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.870001
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+--- !u!4 &4905589815393805674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 442670, guid: 9b796035e65c8394394b1951fe6673d3, type: 3}
+  m_PrefabInstance: {fileID: 4905589815393952836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5455297395090854402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 144018, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+--- !u!4 &5455297395091279224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 434042, guid: 22bbf3dc2990c034a8cc0ecb1ca0eb5a, type: 3}
+  m_PrefabInstance: {fileID: 5455297395090854402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5585891203320333372
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 161524, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SGreen 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.18999958
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+--- !u!4 &5585891203320385236 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 477928, guid: c49e802b6aa9ba8468b9a32fdb8a3982, type: 3}
+  m_PrefabInstance: {fileID: 5585891203320333372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5699111174180026085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 147574, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Green 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+--- !u!4 &5699111174179883089 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 409268, guid: 978571680e83a434daa38edde8a9d6b8, type: 3}
+  m_PrefabInstance: {fileID: 5699111174180026085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5878893727186988931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 149540, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355620, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+--- !u!4 &5878893727187353421 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 430286, guid: 9065b70abdfc29149af07a0787d6bcf0, type: 3}
+  m_PrefabInstance: {fileID: 5878893727186988931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6331740484996691147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 108422, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SBlue 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+--- !u!4 &6331740484996206357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 490462, guid: c885c3c6fbf6f074b805bcd4f69b4257, type: 3}
+  m_PrefabInstance: {fileID: 6331740484996691147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6448874004317268306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 174436, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SPurple
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22000027
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+--- !u!4 &6448874004317117630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 423404, guid: da369bd8ab22ed54ba379b2ed5241c8b, type: 3}
+  m_PrefabInstance: {fileID: 6448874004317268306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6518487316234738542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 168704, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SPink
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.6799994
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+--- !u!4 &6518487316234291920 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 479678, guid: 760d8091d63fc304c8ea0b6637eab904, type: 3}
+  m_PrefabInstance: {fileID: 6518487316234738542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6520671234145271198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 152190, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Yellow 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+--- !u!4 &6520671234144884072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 420086, guid: b2093363ea351d74594ca92796ede4ad, type: 3}
+  m_PrefabInstance: {fileID: 6520671234145271198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6560684032523221150
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Purple 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+--- !u!4 &6560684032522747968 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 6560684032523221150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7150424989102883619
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 194872, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SOrange 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.17000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.0999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+--- !u!4 &7150424989102728101 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 7150424989102883619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7321361445734596167
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 157988, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SRed 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.280001
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+--- !u!4 &7321361445735047933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 466106, guid: 033ff3aeb982b4a4885989981859c542, type: 3}
+  m_PrefabInstance: {fileID: 7321361445734596167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7596261334381156323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 160052, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+--- !u!4 &7596261334381335461 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 476230, guid: 6bd0a59a7f4b68b47b76b647e3a595d9, type: 3}
+  m_PrefabInstance: {fileID: 7596261334381156323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8279091790020237018
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 130988, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SCyan 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.17000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7399998
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+--- !u!4 &8279091790020385858 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 445080, guid: dc0679d8d93646141a918679b63ca396, type: 3}
+  m_PrefabInstance: {fileID: 8279091790020237018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8366481643139370770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 190146, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+--- !u!4 &8366481643138984262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403028, guid: 26d6bf6ec9c34174781d2d45b27f2f71, type: 3}
+  m_PrefabInstance: {fileID: 8366481643139370770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8403173911105839920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2105328752265254720}
+    m_Modifications:
+    - target: {fileID: 108912, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_SOrange
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.17000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+--- !u!4 &8403173911105993904 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 417664, guid: e20248af301e7a0479bc21088e10e1b6, type: 3}
+  m_PrefabInstance: {fileID: 8403173911105839920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8703903581947888251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 142546, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Red 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+--- !u!4 &8703903581948303941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 415806, guid: 8cfe8947b4483f0428172035b405d901, type: 3}
+  m_PrefabInstance: {fileID: 8703903581947888251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9030654857842932701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7695493113074291574}
+    m_Modifications:
+    - target: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Blue 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+--- !u!4 &9030654857843119845 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 9030654857842932701}
+  m_PrefabAsset: {fileID: 0}
