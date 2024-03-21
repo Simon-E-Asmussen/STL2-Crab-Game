@@ -599,7 +599,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1104708280}
         m_TargetAssemblyTypeName: RadialMenu, Assembly-CSharp
-        m_MethodName: Open
+        m_MethodName: Toggle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8123,11 +8123,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPrefab: {fileID: 8998583370597484985, guid: 079dd6e79bbaa8241a255ec69f7ee444, type: 3}
-  radius: 100
+  radius: 300
   icons:
   - {fileID: 2800000, guid: 6ee1f849d4563bd4fbb98b712619adf2, type: 3}
   - {fileID: 2800000, guid: bd3e16dbe6d838846901fe362f161ef3, type: 3}
   - {fileID: 2800000, guid: 67e70834bc7297048bce0a6b8821cbdc, type: 3}
+  - {fileID: 2800000, guid: 6ee1f849d4563bd4fbb98b712619adf2, type: 3}
+  - {fileID: 2800000, guid: bd3e16dbe6d838846901fe362f161ef3, type: 3}
+  - {fileID: 2800000, guid: 67e70834bc7297048bce0a6b8821cbdc, type: 3}
+  - {fileID: 2800000, guid: 6ee1f849d4563bd4fbb98b712619adf2, type: 3}
+  - {fileID: 2800000, guid: bd3e16dbe6d838846901fe362f161ef3, type: 3}
 --- !u!1 &1162938100
 GameObject:
   m_ObjectHideFlags: 0
