@@ -411,6 +411,7 @@
 "Assets/Imported packages/LB3D/CrabMonster/Scripts/Rikayon.cs"
 "Assets/Input/Crab_Input.cs"
 "Assets/Scripts/CrabControl.cs"
+"Assets/Scripts/Grab Crab/GrabController.cs"
 "Assets/Scripts/PlayerInputHandler.cs"
 "Assets/Scripts/Terr_Rnd_MPD.cs"
 "Assets/Scripts/Tether/moveObjectWithMouse.cs"
