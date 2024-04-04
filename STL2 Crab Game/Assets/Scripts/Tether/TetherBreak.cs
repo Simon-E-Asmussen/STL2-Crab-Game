@@ -23,40 +23,33 @@ public class TetherBreak : MonoBehaviour
     public Rigidbody b9;
     public Rigidbody b10;
     public Rigidbody bend;
-
-    private bool broken;
     
     // Start is called before the first frame update
     void Start()
     {
         float dist = Vector3.Distance(char1.transform.position, char2.transform.position);
         Debug.Log("Distance is: " + dist);
-        broken = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         float dist = Vector3.Distance(char1.transform.position, char2.transform.position);
-        if (broken == false)
+        if (dist >= 4)
         {
-            if (dist >= 4)
-            {
-                Debug.Log("Distance is: " + dist);
-            }
+            Debug.Log("Distance is: " + dist);
+        }
 
-            if (dist >= 5.5)
-            {
-                joint1.connectedBody = null;
-                joint2.connectedBody = null;
-                Destroy(joint1);
-                Destroy(joint2);
-                addMass();
-                broken = true;
-            }
+        if (dist >= 5.5)
+        {
+            joint1.connectedBody = null;
+            joint2.connectedBody = null;
+            Destroy(joint1);
+            Destroy(joint2);
+            addMass();
         }
     }
-
+    
     private void addMass()
     {
         b1.mass = 1;
