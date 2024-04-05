@@ -150,6 +150,23 @@ public class PlayerInputHandler : MonoBehaviour
 
 
     }
+    
+    public void OnLeftShoulderPerformed(InputAction.CallbackContext context)
+    {
+        if (crabControl == null) return;
+    
+        if (context.performed)
+        {
+            Debug.Log("Performed Left Bumper");
+            crabControl.radialMenu.GetComponent<RadialMenu>().Open();
+        }
+    
+        if (context.canceled) 
+        {
+            Debug.Log("Cancelled Left Bumper");
+            crabControl.radialMenu.GetComponent<RadialMenu>().Close();
+        }
+    }
 
 
 }

@@ -80,6 +80,15 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LeftBumper"",
+                    ""type"": ""Button"",
+                    ""id"": ""1fc06ebd-2694-4f7d-bfe5-dde8d344ca71"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -401,6 +410,17 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
                     ""action"": ""X_Button"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a17b601e-8f9d-478c-a688-f961d1a85583"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LeftBumper"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -415,6 +435,7 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
         m_PlayerContol_Jump = m_PlayerContol.FindAction("Jump", throwIfNotFound: true);
         m_PlayerContol_Particle = m_PlayerContol.FindAction("Particle", throwIfNotFound: true);
         m_PlayerContol_X_Button = m_PlayerContol.FindAction("X_Button", throwIfNotFound: true);
+        m_PlayerContol_LeftBumper = m_PlayerContol.FindAction("LeftBumper", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -482,6 +503,7 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerContol_Jump;
     private readonly InputAction m_PlayerContol_Particle;
     private readonly InputAction m_PlayerContol_X_Button;
+    private readonly InputAction m_PlayerContol_LeftBumper;
     public struct PlayerContolActions
     {
         private @Crab_Input m_Wrapper;
@@ -492,6 +514,7 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
         public InputAction @Jump => m_Wrapper.m_PlayerContol_Jump;
         public InputAction @Particle => m_Wrapper.m_PlayerContol_Particle;
         public InputAction @X_Button => m_Wrapper.m_PlayerContol_X_Button;
+        public InputAction @LeftBumper => m_Wrapper.m_PlayerContol_LeftBumper;
         public InputActionMap Get() { return m_Wrapper.m_PlayerContol; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -519,6 +542,9 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
             @X_Button.started += instance.OnX_Button;
             @X_Button.performed += instance.OnX_Button;
             @X_Button.canceled += instance.OnX_Button;
+            @LeftBumper.started += instance.OnLeftBumper;
+            @LeftBumper.performed += instance.OnLeftBumper;
+            @LeftBumper.canceled += instance.OnLeftBumper;
         }
 
         private void UnregisterCallbacks(IPlayerContolActions instance)
@@ -541,6 +567,9 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
             @X_Button.started -= instance.OnX_Button;
             @X_Button.performed -= instance.OnX_Button;
             @X_Button.canceled -= instance.OnX_Button;
+            @LeftBumper.started -= instance.OnLeftBumper;
+            @LeftBumper.performed -= instance.OnLeftBumper;
+            @LeftBumper.canceled -= instance.OnLeftBumper;
         }
 
         public void RemoveCallbacks(IPlayerContolActions instance)
@@ -566,5 +595,6 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnParticle(InputAction.CallbackContext context);
         void OnX_Button(InputAction.CallbackContext context);
+        void OnLeftBumper(InputAction.CallbackContext context);
     }
 }

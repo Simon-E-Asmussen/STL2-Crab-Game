@@ -6886,6 +6886,7 @@ MonoBehaviour:
   direction: -1
   crabParticle: {fileID: 6480276482315885444}
   isSpraying: 0
+  radialMenu: {fileID: 656306636}
 --- !u!1 &2067828011524679183
 GameObject:
   m_ObjectHideFlags: 0
@@ -25026,6 +25027,7 @@ MonoBehaviour:
   direction: 1
   crabParticle: {fileID: 4343518743411332737}
   isSpraying: 0
+  radialMenu: {fileID: 1746355006}
 --- !u!33 &5639633254517427009
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -46,6 +46,7 @@ public class CrabControl : MonoBehaviour
     public ParticleSystem crabParticle;
     [HideInInspector] public bool isSpraying = false;
 
+    public GameObject radialMenu; // RadialMenu
 
     private void Awake()
     {
