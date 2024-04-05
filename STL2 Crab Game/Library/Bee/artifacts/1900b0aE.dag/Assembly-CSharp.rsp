@@ -412,6 +412,8 @@
 "Assets/Input/Crab_Input.cs"
 "Assets/Scripts/CrabControl.cs"
 "Assets/Scripts/PlayerInputHandler.cs"
+"Assets/Scripts/RadialMenu.cs"
+"Assets/Scripts/RadialMenuEntry.cs"
 "Assets/Scripts/Terr_Rnd_MPD.cs"
 "Assets/Scripts/Tether/moveObjectWithMouse.cs"
 "Assets/Scripts/Tether/TetherBreak.cs"
