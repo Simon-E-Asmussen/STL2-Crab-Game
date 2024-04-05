@@ -414,7 +414,7 @@ public partial class @Crab_Input: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a17b601e-8f9d-478c-a688-f961d1a85583"",
-                    ""path"": """",
+                    ""path"": ""<Gamepad>/leftShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
