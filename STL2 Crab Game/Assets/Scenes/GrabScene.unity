@@ -3766,6 +3766,7 @@ GameObject:
   - component: {fileID: 6480276482315885444}
   - component: {fileID: 2061632234801381492}
   - component: {fileID: 6243519221790498621}
+  - component: {fileID: 6480276482315885445}
   m_Layer: 0
   m_Name: LeftPart
   m_TagString: LeftPart
@@ -9277,6 +9278,7 @@ GameObject:
   - component: {fileID: 7000958528452053527}
   - component: {fileID: 5803442264475645255}
   - component: {fileID: 3822301507841757901}
+  - component: {fileID: 7000958528452053528}
   m_Layer: 0
   m_Name: Leg (2)
   m_TagString: Untagged
@@ -31587,6 +31589,20 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &6480276482315885445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061637513976901525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5079e8b4d0003b44a7548bd4f3807db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handTransform: {fileID: 2759813617968009800}
+  grabRange: 2
 --- !u!1 &6486316171746903569
 GameObject:
   m_ObjectHideFlags: 0
@@ -33050,6 +33066,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3143945963437804209}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &7000958528452053528
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3143945963437804209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.1890972
+  m_Center: {x: -0.21000001, y: 20.894547, z: -1.439564}
 --- !u!59 &7003852679282526503
 HingeJoint:
   m_ObjectHideFlags: 0

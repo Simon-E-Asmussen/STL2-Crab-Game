@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32467 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'da' Physical Memory: 14274 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Jan Kirk/Documents/GitHub/STL2-Crab-Game/STL2 Crab Game
+C:/Users/mukop/OneDrive/Documents/GitHub/STL2crabgame/STL2-Crab-Game/STL2 Crab Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-39693
-Successfully changed project path to: C:/Users/Jan Kirk/Documents/GitHub/STL2-Crab-Game/STL2 Crab Game
-C:/Users/Jan Kirk/Documents/GitHub/STL2-Crab-Game/STL2 Crab Game
+54171
+Successfully changed project path to: C:/Users/mukop/OneDrive/Documents/GitHub/STL2crabgame/STL2-Crab-Game/STL2 Crab Game
+C:/Users/mukop/OneDrive/Documents/GitHub/STL2crabgame/STL2-Crab-Game/STL2 Crab Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,68 @@ C:/Users/Jan Kirk/Documents/GitHub/STL2-Crab-Game/STL2 Crab Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28992] Host "[IP] 192.168.43.55 [Port] 0 [Flags] 2 [Guid] 4257820032 [EditorId] 4257820032 [Version] 1048832 [Id] WindowsEditor(7,VectorK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21192] Host "[IP] 10.243.165.251 [Port] 0 [Flags] 2 [Guid] 1745684066 [EditorId] 1745684066 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4M39MI47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28992] Host "[IP] 192.168.43.55 [Port] 0 [Flags] 2 [Guid] 4257820032 [EditorId] 4257820032 [Version] 1048832 [Id] WindowsEditor(7,VectorK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21192] Host "[IP] 10.243.165.251 [Port] 0 [Flags] 2 [Guid] 1745684066 [EditorId] 1745684066 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4M39MI47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 195.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Jan Kirk/Documents/GitHub/STL2-Crab-Game/STL2 Crab Game/Assets
+[Subsystems] Discovering subsystems at path C:/Users/mukop/OneDrive/Documents/GitHub/STL2crabgame/STL2-Crab-Game/STL2 Crab Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27a0)
-    Vendor:   NVIDIA
-    VRAM:     11997 MB
-    Driver:   31.0.15.5123
+    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     7137 MB
+    Driver:   27.20.1028.1
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005227 seconds.
-- Loaded All Assemblies, in  0.232 seconds
+Registered in 0.033969 seconds.
+- Loaded All Assemblies, in  1.417 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 168 ms
+Android Extension - Scanning For ADB Devices 796 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.403 seconds
-Domain Reload Profiling: 634ms
-	BeginReloadAssembly (68ms)
+- Finished resetting the current domain, in  1.988 seconds
+Domain Reload Profiling: 3400ms
+	BeginReloadAssembly (312ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (95ms)
-		LoadAssemblies (68ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (114ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (221ms)
+	LoadAllAssembliesAndSetupDomain (724ms)
+		LoadAssemblies (314ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (92ms)
-				TypeCache.ScanAssembly (83ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (403ms)
+		AnalyzeDomain (709ms)
+			TypeCache.Refresh (705ms)
+				TypeCache.ScanAssembly (667ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1990ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (365ms)
+		SetupLoadedEditorAssemblies (1776ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (252ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (1185ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (78ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,62 @@ Domain Reload Profiling: 634ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.415 seconds
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Symbol file data-000001DDD86E9A50 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD86E9A50 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8F0BE30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFABF6630 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFABFAE40 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8F0BE30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87480F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87480F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD763AFB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87480F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87480F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8E72C80 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87480F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFAC01850 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFAC01850 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD86E9A50 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8E72C80 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8E72C80 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD76745D0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD86E9A50 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA294020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8EAB690 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8EB34A0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8EBF2B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA2CB630 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA2CB630 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA4DC420 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.299 seconds
+Refreshing native plugins compatible for Editor in 8.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,51 +181,50 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.423 seconds
-Domain Reload Profiling: 836ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  1.932 seconds
+Domain Reload Profiling: 7218ms
+	BeginReloadAssembly (408ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (261ms)
-		LoadAssemblies (189ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (4660ms)
+		LoadAssemblies (4379ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (101ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (423ms)
+		AnalyzeDomain (501ms)
+			TypeCache.Refresh (446ms)
+				TypeCache.ScanAssembly (409ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1933ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (309ms)
+		SetupLoadedEditorAssemblies (1411ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (232ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (1055ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (21ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 14.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3593 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (347.4 KB). Loaded Objects now: 4086.
-Memory consumption went from 177.3 MB to 177.0 MB.
-Total: 3.369900 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.068100 ms MarkObjects: 2.959100 ms  DeleteObjects: 0.137100 ms)
+Unloading 43 unused Assets / (347.2 KB). Loaded Objects now: 4086.
+Memory consumption went from 175.4 MB to 175.1 MB.
+Total: 7.665200 ms (FindLiveObjects: 0.598000 ms CreateObjectMapping: 0.477500 ms MarkObjects: 6.223800 ms  DeleteObjects: 0.364100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -184,61 +237,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 3010095.928962 seconds.
+  path: Assets/Scenes/GrabScene.unity
+  artifactKey: Guid(71137dfd88163a24e863fc921c3e7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GrabScene.unity using Guid(71137dfd88163a24e863fc921c3e7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed0b150107992a0d4c61c0a1152b0c6') in 0.004440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.303 seconds
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Symbol file data-000001DDD8CE8010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87FD820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC262A1010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFAABFE40 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87FD820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFBF84020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFAF687C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC262C2020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC239B6030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8C2F010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC262C2020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD86AD020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFC613020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87FD820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87FD820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFAF687C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC242D8020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC242D8020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC257D5520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFC613020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD85FF6F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFC613020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC25EFB020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFAF687C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFBF84020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8866020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFBF84020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.257 seconds
+Refreshing native plugins compatible for Editor in 9.81 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.589 seconds
-Domain Reload Profiling: 890ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  5.719 seconds
+Domain Reload Profiling: 7022ms
+	BeginReloadAssembly (401ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (143ms)
-		LoadAssemblies (191ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (619ms)
+		LoadAssemblies (823ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (589ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (5774ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (302ms)
+		SetupLoadedEditorAssemblies (2017ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (116ms)
+			SetLoadedEditorAssemblies (22ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (301ms)
+			ProcessInitializeOnLoadAttributes (1434ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (38ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 60.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 28 unused Assets / (318.9 KB). Loaded Objects now: 4089.
-Memory consumption went from 170.3 MB to 170.0 MB.
-Total: 2.426100 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.101600 ms  DeleteObjects: 0.068900 ms)
+Memory consumption went from 168.5 MB to 168.2 MB.
+Total: 30.146000 ms (FindLiveObjects: 1.003100 ms CreateObjectMapping: 1.082400 ms MarkObjects: 27.806300 ms  DeleteObjects: 0.250600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -253,59 +367,232 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.310 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Symbol file data-000001DDD8BB17C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC261E2D20 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC2467E010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC261E2D20 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC258ED830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA340020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8F50060 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC258ED830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC25FA3060 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFB0FD850 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87F7010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8EE0010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA370040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC258ED830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC258ED830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC257D5520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC262A1010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC25FA3060 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC25C79AD0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA5E3030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC2404B010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA5E3030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8126030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8126030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA340020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFAB6F040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA340020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.056 seconds
+Refreshing native plugins compatible for Editor in 11.46 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 915ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  2.941 seconds
+Domain Reload Profiling: 3993ms
+	BeginReloadAssembly (375ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (197ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (667ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (607ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2943ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
+		SetupLoadedEditorAssemblies (1465ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (231ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (1100ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 14.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (318.9 KB). Loaded Objects now: 4092.
-Memory consumption went from 172.3 MB to 172.0 MB.
-Total: 2.352800 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.052900 ms  DeleteObjects: 0.067500 ms)
+Unloading 28 unused Assets / (319.0 KB). Loaded Objects now: 4092.
+Memory consumption went from 170.7 MB to 170.4 MB.
+Total: 11.505700 ms (FindLiveObjects: 0.863600 ms CreateObjectMapping: 0.731800 ms MarkObjects: 9.648300 ms  DeleteObjects: 0.259300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DDD8BB17C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC23A1A010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC23E01030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC23A1A010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC246E5C90 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFB6EE010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFBBB7010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD755C040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC2664A070 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD8C2F010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD87F7010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD86AD020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD755C040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD755C040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDD755C040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC257D5520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC262A1010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC2664A070 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC2385C020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFC613020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA294020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFC613020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA606AA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFA606AA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFB6EE010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC23E39050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDFB6EE010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL2crabgame\STL2-Crab-Game\STL2 Crab Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.935 seconds
+Refreshing native plugins compatible for Editor in 7.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.623 seconds
+Domain Reload Profiling: 3554ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (450ms)
+		LoadAssemblies (607ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2624ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (965ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 9.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (318.9 KB). Loaded Objects now: 4095.
+Memory consumption went from 172.7 MB to 172.4 MB.
+Total: 10.107500 ms (FindLiveObjects: 0.803900 ms CreateObjectMapping: 0.866200 ms MarkObjects: 8.204700 ms  DeleteObjects: 0.229600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
