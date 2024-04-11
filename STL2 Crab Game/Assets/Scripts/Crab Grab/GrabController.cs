@@ -7,6 +7,7 @@ public class GrabController : MonoBehaviour
 {
     public Transform handTransform; // The transform representing the character's hand
     public float grabRange = 2f; // The range within which the character can grab objects
+    private Vector3 originalGrabOffset;
 
     private bool isGrabbing = false;
     private Rigidbody currentGrabbedObject;
@@ -19,6 +20,14 @@ public class GrabController : MonoBehaviour
         {
             ToggleGrab();
         }
+        
+        //Moves grabbed object
+        if (isGrabbing && currentGrabbedObject != null)
+        {
+            currentGrabbedObject.position = handTransform.position + originalGrabOffset;
+        }
+        
+   
     }
 
     void OnTriggerStay(Collider target)
@@ -47,11 +56,10 @@ public class GrabController : MonoBehaviour
                     Debug.Log("Loop step 4");
                     currentGrabbedObject = item.GetComponent<Rigidbody>();
                     currentGrabbedObject.isKinematic = true;
-                    currentGrabbedObject.transform.parent = handTransform;
-                    currentGrabbedObject.transform.localPosition = Vector3.zero;
-                    currentGrabbedObject.transform.localRotation = Quaternion.identity;
+                    originalGrabOffset = currentGrabbedObject.position - handTransform.position; // Store original offset
                     isGrabbing = true;
                 }
+                
             
         }
         else
@@ -62,7 +70,6 @@ public class GrabController : MonoBehaviour
             {
                 Debug.Log("loop else 2");
                 currentGrabbedObject.isKinematic = false;
-                currentGrabbedObject.transform.parent = null;
                 currentGrabbedObject = null;
                 isGrabbing = false;
             }
