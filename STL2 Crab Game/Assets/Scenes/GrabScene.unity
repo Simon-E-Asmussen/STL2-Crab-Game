@@ -1157,7 +1157,7 @@ Transform:
   m_GameObject: {fileID: 903409831}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.329, y: -18.39, z: 0.801}
+  m_LocalPosition: {x: -0.219, y: -17.59, z: 0.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1182,7 +1182,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.1890972
+  m_Radius: 0.34
   m_Center: {x: -0.21000001, y: 20.894547, z: -1.439564}
 --- !u!114 &903409834
 MonoBehaviour:
@@ -34866,6 +34866,7 @@ GameObject:
   - component: {fileID: 5374379078969643665}
   - component: {fileID: 439214224700740317}
   - component: {fileID: 4900297708648319827}
+  - component: {fileID: 7740026863754232317}
   m_Layer: 0
   m_Name: Bucket_Pink 1
   m_TagString: Untagged
@@ -34873,6 +34874,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7740026863754232317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7740026863754232316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 7c49f6b21b0ef4b4888c9513e0a8d46f, type: 2}
+  isGlobal: 0
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!4 &7746807069498400548
 Transform:
   m_ObjectHideFlags: 0

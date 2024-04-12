@@ -1,16 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GrabController : MonoBehaviour
 {
     public Transform handTransform; // The transform representing the character's hand
     public float grabRange = 2f; // The range within which the character can grab objects
-    private Vector3 originalGrabOffset;
 
     private bool isGrabbing = false;
     private Rigidbody currentGrabbedObject;
+    private Vector3 originalGrabOffset;
+    private Quaternion originalRotationOffset;
     private GameObject item;
 
     void Update()
@@ -20,21 +18,30 @@ public class GrabController : MonoBehaviour
         {
             ToggleGrab();
         }
-        
-        //Moves grabbed object
+
+        // Moves grabbed object
         if (isGrabbing && currentGrabbedObject != null)
         {
-            currentGrabbedObject.position = handTransform.position + originalGrabOffset;
+            Vector3 desiredPosition = handTransform.TransformPoint(originalGrabOffset);
+            // Add 2 to the y-coordinate of the desired position
+            desiredPosition.y += 2f;
+            currentGrabbedObject.MovePosition(desiredPosition);
+            currentGrabbedObject.MoveRotation(handTransform.rotation * originalRotationOffset);
         }
-        
-   
+
+        // Throw object if grab button is pressed again while holding an object
+        if (isGrabbing && currentGrabbedObject != null && Input.GetButtonDown("Fire2"))
+        {
+            ThrowMode();
+        } 
     }
 
     void OnTriggerStay(Collider target)
     {
-        HoldItem(target.gameObject);
-        Debug.LogWarning(target.name);
-        return;
+        if (!isGrabbing)
+        {
+            HoldItem(target.gameObject);
+        }
     }
 
     void HoldItem(GameObject grabTarget)
@@ -44,36 +51,30 @@ public class GrabController : MonoBehaviour
 
     void ToggleGrab()
     {
-        Debug.Log("loop step 1");
-        if (!isGrabbing)
+        if (!isGrabbing && item != null)
         {
-            Debug.Log("Loop step 2");
-            // Attempt to grab an object
-          
-                Debug.Log("Loop step 3");
-                if (item.GetComponent<Rigidbody>() != null)
-                {
-                    Debug.Log("Loop step 4");
-                    currentGrabbedObject = item.GetComponent<Rigidbody>();
-                    currentGrabbedObject.isKinematic = true;
-                    originalGrabOffset = currentGrabbedObject.position - handTransform.position; // Store original offset
-                    isGrabbing = true;
-                }
-                
-            
+            if (item.GetComponent<Rigidbody>() != null)
+            {
+                currentGrabbedObject = item.GetComponent<Rigidbody>();
+                currentGrabbedObject.isKinematic = true;
+                originalGrabOffset = handTransform.InverseTransformDirection(currentGrabbedObject.position - handTransform.position);
+                originalRotationOffset = Quaternion.Inverse(handTransform.rotation) * currentGrabbedObject.rotation;
+                isGrabbing = true;
+            }
         }
         else
         {
-            Debug.Log("loop else");
-            // Release the grabbed object
             if (currentGrabbedObject != null)
             {
-                Debug.Log("loop else 2");
                 currentGrabbedObject.isKinematic = false;
                 currentGrabbedObject = null;
                 isGrabbing = false;
             }
         }
     }
-}
 
+    void ThrowMode()
+    {
+        // Implement throw logic here
+    }
+}
