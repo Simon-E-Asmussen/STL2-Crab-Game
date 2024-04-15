@@ -5,7 +5,6 @@ using UnityEngine.Profiling;
 
 public class TetherBreak_V2 : MonoBehaviour
 {
-    private string tetherMiddle_Name = "Tether_Middle";
     public GameObject charLeft;
     public GameObject charRight;
 
@@ -20,12 +19,16 @@ public class TetherBreak_V2 : MonoBehaviour
     private List<HingeJoint> hingeJoint = new();
     private Renderer rend;
 
-    private float maxDist = 5.5f;
+    private readonly float maxDist = 5.5f;
+    private float warningDist;
+
+    bool ropeBroken = false;
 
 
 
     private void Awake()
     {
+        warningDist = 0.8f * maxDist;
         rend = FindChildWithName(transform, "Cylinder").GetComponent<Renderer>();
 
         charLeft = GameObject.FindWithTag("LeftPart");
@@ -73,29 +76,34 @@ public class TetherBreak_V2 : MonoBehaviour
     void Start()
     {
         float dist = Vector3.Distance(charLeft.transform.position, charRight.transform.position);
-        Debug.Log("Distance is: " + dist);
+        Debug.Log("Tether rope, " + name + ". Distance is " + dist + " meters");
     }
 
 
     void Update()
     {
-        float dist = Vector3.Distance(charLeft.transform.position, charRight.transform.position);
-
-        //if (dist >= 4) Debug.Log("Distance is: " + dist);
-
-
-        if (dist >= maxDist)
+        if (!ropeBroken)
         {
-            jointLeft.connectedBody = null;
-            jointRight.connectedBody = null;
-            Destroy(jointLeft);
-            Destroy(jointRight);
-            foreach (Rigidbody itr in boneRigidBody) AddMass(itr);
-        }
+            float dist = Vector3.Distance(charLeft.transform.position, charRight.transform.position);
 
-        //foreach (HingeJoint itr in hingeJoint) StretchControl(itr, 20, 0, 0);
-        Debug.Log("Distance: " + dist);
-        ChangeColor(dist);
+            if (dist > warningDist && dist <= maxDist) Debug.Log("WARNING => Tether rope, " + name + ". Distance close to max: " + dist + " meters.");
+
+
+            if (dist >= maxDist)
+            {
+                ropeBroken = true;
+                jointLeft.connectedBody = null;
+                jointRight.connectedBody = null;
+                Destroy(jointLeft);
+                Destroy(jointRight);
+                foreach (Rigidbody itr in boneRigidBody) AddMass(itr);
+                Debug.Log("BROKEN => Tether rope, " + name + ". Distance: " + dist + " meters.");
+            }
+
+            //foreach (HingeJoint itr in hingeJoint) StretchControl(itr, 20, 0, 0);
+            ChangeColor(dist);
+
+        }
     }
 
     void ChangeColor(float dist)

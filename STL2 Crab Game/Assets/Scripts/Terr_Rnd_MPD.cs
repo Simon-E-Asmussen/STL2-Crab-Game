@@ -2,13 +2,13 @@
 using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 
 
 [RequireComponent(typeof(Terrain))]
 
 public class Terr_Rnd_MPD : MonoBehaviour
 {
-    public TerrainData terrainData;
     public bool reset = false;
 
     // How much randomness do we want to add to the new generated values, the higher the more the terrain will look jagged
@@ -20,7 +20,7 @@ public class Terr_Rnd_MPD : MonoBehaviour
     //[SerializeField] private float randomValueReduction = 0.45f;
     private float randomValueReduction = 0.45f;
 
-    [SerializeField] private int terrainScale = 1; // Terrain scale (scale 10 works !!!)
+    private int terrainScale = 10; // Terrain scale (scale 10 works !!!)
 
     // Seed so we can reproduce results, if you tick the useRandomSeed variable it will just pick a random one
     [SerializeField] private int customSeed;
@@ -41,8 +41,8 @@ public class Terr_Rnd_MPD : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(terrain.terrainData.size);
-        Debug.Log("This is MPD on Terrain: " + terrain.name + ", using data: " + terrain.terrainData.name);
+        //Debug.Log(terrain.terrainData.size);
+        //Debug.Log("This is MPD on Terrain: " + terrain.name + ", using data: " + terrain.terrainData.name);
     }
 
 
@@ -141,7 +141,9 @@ public class Terr_Rnd_MPD : MonoBehaviour
         hts = NormalizeHeightmap(hts, minHeight, maxHeight);
 
         //  Passing heights to terrain
-        t.terrainData.SetHeights(0,0,hts);
+        t.terrainData.SetHeights(0, 0, hts);
+        //t.terrainData.SetHeightsDelayLOD(0, 0, hts);
+        //t.terrainData.SyncHeightmap();
     }
 
 
