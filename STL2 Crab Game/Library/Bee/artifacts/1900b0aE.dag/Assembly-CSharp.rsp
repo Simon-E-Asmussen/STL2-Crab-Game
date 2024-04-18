@@ -120,7 +120,6 @@
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
--define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
@@ -330,13 +329,15 @@
 -r:"Y:/Unity/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"Y:/Unity/2022.3.20f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"Y:/Unity/2022.3.20f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
@@ -359,6 +360,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"Y:/Unity/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"Y:/Unity/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Classic_car_1955/Light_control/car_light_control.cs"
 "Assets/Imported packages/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2/NVWaterShaders.cs"
 "Assets/Imported packages/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/DynamicSkyForDemo.cs"
 "Assets/Imported packages/#NVJOB Water Shaders V2/Example Scenes/Environment/Scripts/Lighthouse.cs"
@@ -412,7 +414,6 @@
 "Assets/Imported packages/LB3D/CrabMonster/Scripts/Rikayon.cs"
 "Assets/Imported packages/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
 "Assets/Input/Crab_Input.cs"
-"Assets/Scripts/Crab Grab/GrabController.cs"
 "Assets/Scripts/CrabControl.cs"
 "Assets/Scripts/NPC_Roam.cs"
 "Assets/Scripts/PlaceBorderSegment.cs"
