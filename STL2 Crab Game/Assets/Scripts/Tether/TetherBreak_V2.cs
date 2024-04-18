@@ -22,7 +22,8 @@ public class TetherBreak_V2 : MonoBehaviour
     private readonly float maxDist = 5.5f;
     private float warningDist;
 
-    bool ropeBroken = false;
+    [HideInInspector]
+    public bool ropeBroken = false;
 
 
 
@@ -86,7 +87,8 @@ public class TetherBreak_V2 : MonoBehaviour
         {
             float dist = Vector3.Distance(charLeft.transform.position, charRight.transform.position);
 
-            if (dist > warningDist && dist <= maxDist) Debug.Log("WARNING => Tether rope, " + name + ". Distance close to max: " + dist + " meters.");
+            // Warning
+            //if (dist > warningDist && dist <= maxDist) Debug.Log("WARNING => Tether rope, " + name + ". Distance close to max: " + dist + " meters.");
 
 
             if (dist >= maxDist)

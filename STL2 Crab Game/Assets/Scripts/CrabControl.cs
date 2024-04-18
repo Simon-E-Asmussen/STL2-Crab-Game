@@ -46,6 +46,8 @@ public class CrabControl : MonoBehaviour
     public ParticleSystem crabParticle;
     [HideInInspector] public bool isSpraying = false;
 
+    public GameData gameData;
+
 
     private void Awake()
     {
@@ -56,6 +58,8 @@ public class CrabControl : MonoBehaviour
         camera = GetComponentInChildren<Camera>();
         camStartRot = camera.transform.rotation;
         camPitchObj.transform.localPosition = new Vector3(camPitchObj.transform.localPosition.x, camPitchObj.transform.localPosition.y, camPitchObj.transform.localPosition.z * cameraOffsetFactor);
+
+        gameData = GameObject.FindAnyObjectByType<GameData>();
     }
 
 
@@ -63,8 +67,11 @@ public class CrabControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
-        RotateCamera();
+        if (gameData.playersReady >= 2)
+        {
+            Move();
+            RotateCamera();
+        }
     }
 
     public int GetPlayerIndex()
